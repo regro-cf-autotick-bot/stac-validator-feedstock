@@ -1,5 +1,5 @@
 {% set name = "stac-validator" %}
-{% set version = "3.2.0" %}
+{% set version = "3.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/stac_validator-{{ version }}.tar.gz
-  sha256: 010ef0bb19160948e48c9d845df3fd6aac42becfc669eda56f573170d89fa2ee
+  sha256: 84275b7cd0789b1e3514b7e2ff0dc9f9819d3e7108f8ef88c5cacbece4bb0009
 
 build:
   entry_points:
